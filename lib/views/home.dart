@@ -35,7 +35,7 @@ class _HomeScreenUiState extends State<HomeScreenUi> {
           padding: const EdgeInsets.all(8.0),
           child: ListView.builder(
               itemCount: 100,
-              // physics: BouncingScrollPhysics(),
+              physics: BouncingScrollPhysics(),
               itemBuilder: (context, index) {
                 return Container(
                   margin: EdgeInsets.only(bottom: 5),
